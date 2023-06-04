@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="height=device-height, 
+         width=device-width, initial-scale=1.0, 
+         minimum-scale=1.0, maximum-scale=1.0, 
+         user-scalable=no">
+      <title>Património arbóreo das Caldas das Taipas</title>
+      <link href='assets/leith.css' rel='stylesheet' />
+      <script src="https://www.youtube.com/iframe_api"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+      <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
+      <link href='https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap' rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="data/track.js" type="text/javascript"></script>
+      <script src="data/track1.js" type="text/javascript"></script>
+      <script src="data/track11.js" type="text/javascript"></script>
+      <script src="data/track2.js" type="text/javascript"></script>
+      <script src="data/track5.js" type="text/javascript"></script>
+      <script src="data/track55.js" type="text/javascript"></script>
+      <script src="data/tree.js" type="text/javascript"></script>
+      <script src="data/track3.js" type="text/javascript"></script>
+      <script src="data/track4.js" type="text/javascript"></script>
+      <script src="data/sem.js" type="text/javascript"></script>
+      <script src="data/murals.js" type="text/javascript"></script>
+   
+
+
+   </head>
+   <body>
+      <pre id="info1"></pre>
+      <div class="button-container">
+         <button class="button" onclick="zoomToCoordinates(0.04951800000003459,51.504843700000038, 'London City Airport', 'https://upload.wikimedia.org/wikipedia/commons/a/a5/LONDON_CITY_AIRPORT_SEP_2012_%288057694485%29.jpg')">London City Airport</button>
+         <button class="button" onclick="zoomToCoordinates(-0.18206289999994851,51.153662100000076, 'Gatwick Airport','https://cloudfront-us-east-2.images.arcpublishing.com/reuters/6VNTDQQP4NOYPD2YIFALFE2DFE.jpg')">Gatwick Airport</button>
+         <button class="button" onclick="zoomToCoordinates(-0.45429549999994379,51.470022300000039, 'Heathrow Airport','https://www.londonkensingtonguide.com/wp-content/uploads/2020/03/Heathrow-Airport-Showers-facilities-2-scaled-1.jpeg')">Heathrow Airport</button>
+         <button class="button" onclick="zoomToCoordinates(-0.37543949999997039,51.879512900000066, 'Luton Airport','https://c.files.bbci.co.uk/13EC7/production/_104970618_lutonairportoutside.jpg' )">Luton Airport</button>
+         <button class="button" onclick="zoomToCoordinates(0.23886610000005248,51.886018100000058, 'Stansted Airport','https://content.presspage.com/uploads/1946/1920_img-1012a.jpg'  )">Stansted Airport</button>
+         <button class="button" onclick="zoomToCoordinates(0.69247740000002977,51.570193200000062, 'London Southend Airport','https://d1t0xk6rn1avc6.cloudfront.net/wp-content/uploads/London-Southend-Airport.jpg')">London Southend Airport</button>
+       </div>
+      <div id='mapcontainer'>
+      <div class='map-overlay'  id='legenda'>  
+         
+         <div class="legendas"> 
+            <img src="https://1.bp.blogspot.com/-JImfzb1nWOg/X9Bp5PFZl1I/AAAAAAAAGEM/cYb5o03rZLs1Ydq4Z0-shoTdFLXM1fsmACLcBGAsYHQ/s389/Anuncie%2Baqui.png" alt="Descrição da imagem" class="responsive-image">
+         </div>
+      </div>
+
+      <script src='index.js'></script>
+   </body>
+</html>
